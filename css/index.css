@@ -1,0 +1,99 @@
+#pengalaman, #project, #tentang{
+    margin-bottom: 5rem;
+
+    h2{
+        font-size: 0.9rem;
+        text-transform: uppercase;
+    }
+}
+#pengalaman a{
+    color: #f8fafc;
+}
+#pengalaman a:hover{
+    transition: 0.5s;
+    color: #64748b;
+}
+.list-section{
+    margin: 0rem 0rem 3rem 0rem;
+}
+.isi-pengalaman{
+    @media (min-width: 40em) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.tanggal-kerja{
+    font-weight: 500;
+    font-size: small;
+    color: #64748b;
+    margin: 0.1rem 0rem 0.5rem 0rem;
+}
+.list-section{
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.list-section:hover{
+    border-radius: 0.5rem;
+    background-color: #33415522;
+    transition: 0.3s;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+.pengalaman-deskripsi{
+    @media (min-width: 40em) {
+        width: 75%;
+    }
+    @media (min-width: 60em) {
+        width: 65%;
+    }
+    @media (min-width: 90em) {
+        width: 70%;
+    }
+}
+.pengalaman-deskripsi h6, .pengalaman-deskripsi p{
+    margin-bottom: 10px;
+}
+.pengalaman-deskripsi li {
+    display: inline-block;
+    margin: 0.1em 0.1em 0px 0px;
+    padding: 0.3rem;
+    background-color: #1e293b;
+    border-radius: 5px;
+}
+#project li:hover{
+    background-color: #33415522;
+    transition: 0.3s;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+.desk-project{
+    width: 70%;
+}
+.desk-project h6{
+    margin-bottom: 10px;
+}
+.project img {
+    border-radius: 3px;
+}
+.main-project{
+    display: grid;
+    gap: 1rem;
+
+    h6{
+        margin-bottom: 5px;
+    }
+    img{
+        border-radius: 5px;
+    }
+
+    a{
+        color: #f8fafc;
+    }
+
+    @media (min-width: 40em) {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}

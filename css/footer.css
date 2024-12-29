@@ -1,0 +1,8 @@
+.copyright a{
+    color: #f8fafc;
+}
+.copyright a:hover{
+    color: #64748b;
+    transition: 0.5s;
+}
+/* Pakai Metode class spasi tag biar mudah dan profesional */
